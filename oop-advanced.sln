@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberStore", "CyberStore\CyberStore.csproj", "{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B560226E-81C3-435D-95ED-B9567E853BF1}
+	EndGlobalSection
+EndGlobal
