@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeArea", "ShapeArea\Shap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devices", "Devices\Devices.csproj", "{EED5D31D-1C91-4C25-B2A2-F795C00BB86F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees\Employees.csproj", "{3144F46C-31B4-4410-B989-1612DE33BCDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EED5D31D-1C91-4C25-B2A2-F795C00BB86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EED5D31D-1C91-4C25-B2A2-F795C00BB86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EED5D31D-1C91-4C25-B2A2-F795C00BB86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3144F46C-31B4-4410-B989-1612DE33BCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3144F46C-31B4-4410-B989-1612DE33BCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3144F46C-31B4-4410-B989-1612DE33BCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3144F46C-31B4-4410-B989-1612DE33BCDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
