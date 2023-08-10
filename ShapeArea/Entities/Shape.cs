@@ -2,7 +2,7 @@
 
 namespace ShapeArea.Entities
 {
-    internal abstract class Shape
+    internal abstract class Shape : IShape
     {
         public Color Color { get; set; }
 
