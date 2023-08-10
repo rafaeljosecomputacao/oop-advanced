@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberStore", "CyberStore\CyberStore.csproj", "{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberStore", "CyberStore\CyberStore.csproj", "{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalCompany", "CarRentalCompany\CarRentalCompany.csproj", "{96721659-CE87-4355-A88D-849CE7D84142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96721659-CE87-4355-A88D-849CE7D84142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96721659-CE87-4355-A88D-849CE7D84142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96721659-CE87-4355-A88D-849CE7D84142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96721659-CE87-4355-A88D-849CE7D84142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
