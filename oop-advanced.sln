@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberStore", "CyberStore\Cy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalCompany", "CarRentalCompany\CarRentalCompany.csproj", "{96721659-CE87-4355-A88D-849CE7D84142}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeArea", "ShapeArea\ShapeArea.csproj", "{D6B108F7-0F95-4A84-B168-8CBB564D9DF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{96721659-CE87-4355-A88D-849CE7D84142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96721659-CE87-4355-A88D-849CE7D84142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96721659-CE87-4355-A88D-849CE7D84142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B108F7-0F95-4A84-B168-8CBB564D9DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B108F7-0F95-4A84-B168-8CBB564D9DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B108F7-0F95-4A84-B168-8CBB564D9DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B108F7-0F95-4A84-B168-8CBB564D9DF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
