@@ -5,13 +5,15 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberStore", "CyberStore\CyberStore.csproj", "{D69DA069-99FB-46C6-B23F-AB5B8DB8A3CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalCompany", "CarRentalCompany\CarRentalCompany.csproj", "{96721659-CE87-4355-A88D-849CE7D84142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentalCompany", "CarRentalCompany\CarRentalCompany.csproj", "{96721659-CE87-4355-A88D-849CE7D84142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeArea", "ShapeArea\ShapeArea.csproj", "{D6B108F7-0F95-4A84-B168-8CBB564D9DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeArea", "ShapeArea\ShapeArea.csproj", "{D6B108F7-0F95-4A84-B168-8CBB564D9DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devices", "Devices\Devices.csproj", "{EED5D31D-1C91-4C25-B2A2-F795C00BB86F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devices", "Devices\Devices.csproj", "{EED5D31D-1C91-4C25-B2A2-F795C00BB86F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees\Employees.csproj", "{3144F46C-31B4-4410-B989-1612DE33BCDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employees", "Employees\Employees.csproj", "{3144F46C-31B4-4410-B989-1612DE33BCDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractProcess", "ContractProcess\ContractProcess.csproj", "{250885AB-0221-40AA-BFF4-F44C687965A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3144F46C-31B4-4410-B989-1612DE33BCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3144F46C-31B4-4410-B989-1612DE33BCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3144F46C-31B4-4410-B989-1612DE33BCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250885AB-0221-40AA-BFF4-F44C687965A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250885AB-0221-40AA-BFF4-F44C687965A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250885AB-0221-40AA-BFF4-F44C687965A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250885AB-0221-40AA-BFF4-F44C687965A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
