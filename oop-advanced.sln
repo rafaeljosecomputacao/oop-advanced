@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devices", "Devices\Devices.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employees", "Employees\Employees.csproj", "{3144F46C-31B4-4410-B989-1612DE33BCDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractProcess", "ContractProcess\ContractProcess.csproj", "{250885AB-0221-40AA-BFF4-F44C687965A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContractProcess", "ContractProcess\ContractProcess.csproj", "{250885AB-0221-40AA-BFF4-F44C687965A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printer", "Printer\Printer.csproj", "{D477D8EC-BE2A-4AAE-AD73-7B0E09C5AF9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{250885AB-0221-40AA-BFF4-F44C687965A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{250885AB-0221-40AA-BFF4-F44C687965A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{250885AB-0221-40AA-BFF4-F44C687965A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D477D8EC-BE2A-4AAE-AD73-7B0E09C5AF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D477D8EC-BE2A-4AAE-AD73-7B0E09C5AF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D477D8EC-BE2A-4AAE-AD73-7B0E09C5AF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D477D8EC-BE2A-4AAE-AD73-7B0E09C5AF9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
