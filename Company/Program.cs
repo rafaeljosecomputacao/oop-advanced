@@ -28,10 +28,11 @@ namespace Company
             }
 
             Console.Write("Enter salary: ");
-            double inputSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double limit = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.WriteLine("Email of people whose salary is more than 2000.00:");
-            var emails = employees.Where(e => e.Salary > 2000.00).OrderBy(e => e.Email).Select(e => e.Email);
+            Console.WriteLine("Email of people whose salary is more than " + limit.ToString("F2", CultureInfo.InvariantCulture) + ":");
+
+            var emails = employees.Where(e => e.Salary > limit).OrderBy(e => e.Email).Select(e => e.Email);
             foreach (string email in emails)
             {
                 Console.WriteLine(email);
