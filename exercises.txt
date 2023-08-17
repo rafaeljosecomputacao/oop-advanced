@@ -1,0 +1,307 @@
+Files
+
+Project: CyberStore
+
+Make a program to read the path of a ".csv" file containing the data of items
+sold. Each item has a name, unit price and quantity, separated by a comma. You
+must generate a new file called "summary.csv", located in a subfolder called
+"out" from the original folder of the source file, containing only the name
+and total value for that item.
+
+Example:
+
+Source file:
+TV LED,1290.99,1
+Video Game Chair,350.50,3
+Iphone X,900.00,2
+Samsung Galaxy 9,850.00,2
+
+Output file (out/summary.csv):
+TV LED,1290.99
+Video Game Chair,1051.50
+Iphone X,1800.00
+Samsung Galaxy 9,1700.00
+
+Interfaces
+
+Project: CarRentalCompany
+
+A Brazilian car rental company charges an hourly rate for rentals of up to 12 hours. However,
+if the duration of the rental exceeds 12 hours, the rental will be charged on a daily
+basis. In addition to the lease amount, it is added to the price the value of the tax
+according to the rules of the country which, in the case of Brazil, is 20% for amounts up
+to 100.00, or 15% for amounts above 100.00. Make one program that reads location data
+(car model, initial and final time of lease), hourly rate, and daily lease rate. The program
+must then generate the payment note (containing the lease amount, the tax and total payment
+amount) and inform the data on the screen.
+
+Example 1:
+
+Enter rental data
+Car model: Civic
+Pickup (dd/MM/yyyy hh:mm): 25/06/2018 10:30
+Return (dd/MM/yyyy hh:mm): 25/06/2018 14:40
+Enter price per hour: 10.00
+Enter price per day: 130.00
+INVOICE:
+Basic payment: 50.00
+Tax: 10.00
+Total payment: 60.00
+
+Example 2:
+
+Enter rental data
+Car model: Civic
+Pickup (dd/MM/yyyy hh:mm): 25/06/2018 10:30
+Return (dd/MM/yyyy hh:mm): 27/06/2018 11:40
+Enter price per hour: 10.00
+Enter price per day: 130.00
+INVOICE:
+Basic payment: 390.00
+Tax: 58.50
+Total payment: 448.50
+
+Project: ContractProcess
+
+A company wants to automate the processing of its contracts. The processing of a contract
+consists of generating the installments to be paid for that contract, based on the desired
+number of months. The company uses an online payment service to pay installments. Online
+payment services typically charge a monthly interest as well as a fee by payment. For now,
+the service contracted by the company is Paypal, which applies 1% simple interest on each
+installment, plus a 2% payment fee. Write a program to read contract data (contract number,
+contract date, and total value of the contract). Then the program should read the number
+of months to installment of the contract and then generate the records of installments to
+be paid (date and amount), the first installment to be paid one month after the contract
+date, the second installment two months after the contract and so on. Show plot data on
+the screen.
+
+Example:
+
+Enter contract data
+Number: 8028
+Date (dd/MM/yyyy): 25/06/2018
+Contract value: 600.00
+Enter number of installments: 3
+Installments:
+25/07/2018 - 206.04
+25/08/2018 - 208.08
+25/09/2018 - 210.12
+
+Project: ShapeArea
+
+Simple example about inherit versus fulfill contract.
+
+Project: Devices
+
+Simple example about multiple inheritance and the diamond problem.
+
+Project: Employees
+
+Write a program to read a file containing employees (name and salary) in ".csv" format,
+storing them in a list. Then sort the list by name and show the result on the screen.
+
+Example:
+
+Input file:
+Maria Brown,4300.00
+Alex Green,3100.00
+Bob Grey,3100.00
+Anna White,3500.00
+Alex Black,2450.00
+Eduardo Rose,4390.00
+Willian Red,2900.00
+Marta Blue,6100.00
+Alex Brown,5000.00
+
+Generics, set and dictionary
+
+Generics
+
+Project: Printer
+
+Write a program that reads a set of N integers (N of 1 to 10), and then print these
+numbers neatly. Then inform what was the first value entered.
+
+Example:
+
+How many values? 3 
+10
+8
+23
+[10, 8, 23]
+First: 10
+
+Project: ConsultingCompany
+
+A consulting firm wants to evaluate the performance of products, employees, among other
+things. One of the calculations she needs is to find the largest of a set of elements. Write
+a program that reads a set of N products and then show the most expensive one.
+
+Example:
+
+Enter N: 3 
+Computer,890.50
+IPhone X,910.00
+Tablet,550.00
+Max:
+IPhone, 910.00
+
+Set
+
+Project: UserAccess
+
+An internet website registers a log of user accesses. One log record consists of the
+username and the time when the user accessed the site in the ISO 8601 standard,
+separated by spaces. Write a program that reads the access log to from a file, and
+then inform how many different users accessed the website.
+
+Example:
+
+Input file:
+amanda 2020-08-26T20:45:08
+alex86 2020-08-26T21:49:37
+bobbrown 2020-08-27T03:19:13
+amanda 2020-08-27T08:11:00
+jeniffer3 2020-08-27T09:19:24
+alex86 2020-08-27T22:39:52
+amanda 2020-08-28T07:42:19
+
+Execution:
+Enter file full path: c:\folder_name\file_name.txt
+Total users: 4
+
+Project: OnlineCourse
+
+In an online course portal, each user has a unique code, represented by an integer. Each
+portal instructor can have several courses, and the same student can be enroll in as
+many courses as you like. Thus, the total number of students of an instructor does not
+is simply the sum of students from all the courses he has, as there may be students
+repeated in more than one course. Instructor Alex has three courses A, B, and C, and
+wants to know their total number of students. Your program should read Instructor
+Alex's A, B, and C course students, then show the total amount and students of it.
+
+Example:
+
+How many students for course A? 3
+21
+35
+22
+How many students for course B? 2
+21
+50
+How many students for course C? 3
+42
+35
+13
+Total students: 6
+
+Dictionary
+
+Project: Cookies
+
+Simple dictionary example.
+
+Project: VoteCount
+
+When counting votes for an election, several records are generated ballot box
+containing the name of the candidate and the number of votes (.csv format) that
+he obtained from a ballot box. Write a program to read voting records from a
+file, and then generate a consolidated report with the totals of each candidate.
+
+Example:
+
+Input file:
+Alex Blue,15
+Maria Green,22
+Bob Brown,21
+Alex Blue,30
+Bob Brown,15
+Maria Green,27
+Maria Green,22
+Bob Brown,25
+Alex Blue,31
+
+Execution:
+Enter file full path: c:\folder_name\file_name.txt
+Alex Blue: 76
+Maria Green: 71
+Bob Brown: 61
+
+Extension method
+
+Project: PostTime
+
+Create an extension method called "ElapsedTime()" in the struct DateTime to present
+a DateTime object in the form of time elapsed, which could be in hours or days.
+
+Example:
+
+"4.5 hours"
+"3.2 days"
+
+Project: PostView
+
+Create an extension method called "Cut(int)" in the String class to receive an
+integer value as a parameter and generate a clipping of the original string
+of that length.
+
+Example:
+
+Input:
+"Good morning dear students!";
+
+Result:
+"Good morni..."
+
+Lambda expressions, delegates and linq
+
+Project: Marketplace
+
+Simple project with linq library examples.
+
+Project: Store
+
+Write a program to read a set of products from a file in ".csv" format. Then show the
+average price of the products. Then show the names, in descending order, of the
+products that have a price below the average price.
+
+Example:
+
+Input file:
+Tv,900.00
+Mouse,50.00
+Tablet,350.50
+HD Case,80.90
+Computer,850.00
+Monitor,290.00
+
+Execution:
+Average price: 420.23
+Tablet
+Mouse
+Monitor
+HD Case
+
+Project: Company
+
+Make a program to read the data (name, email and salary) of employees from a file in
+".csv" format. Then show, in alphabetical order, the email addresses of employees
+whose salary exceeds a given amount provided by the user. Also show the sum of
+salaries of employees whose name starts with the letter 'M'.
+
+Example:
+
+Input file:
+Maria,maria@gmail.com,3200.00
+Alex,alex@gmail.com,1900.00
+Marco,marco@gmail.com,1700.00
+Bob,bob@gmail.com,3500.00
+Anna,anna@gmail.com,2800.00
+
+Execution:
+Enter salary: 2000.00
+Email of people whose salary is more than 2000.00:
+anna@gmail.com
+bob@gmail.com
+maria@gmail.com
+Sum of salary of people whose name starts with 'M': 4900.00
